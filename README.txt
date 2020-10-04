@@ -20,7 +20,7 @@ The program takes in a three command line arguments:
     If the -O argument is missing, the output goes to stdout.
 
 To compile caesar_encode.c:
-gcc -std=c99 -Wall -c caesar_encode.c -o caesar_encode
+gcc -std=c99 -Wall caesar_encode.c -o caesar_encode
 ./caesar_encode 10 -F sample.txt -O output.txt
 ./caesar_encode 15
 and so on...
